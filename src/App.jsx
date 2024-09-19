@@ -14,7 +14,7 @@ function App() {
   const changeHandler = (e) => {
     setFormData((prevData) => ({
       ...prevData,
-      [e.target.name]: Number(e.target.value),
+      [e.target.name]: Number(e.target.value) || 1,
     }))
   }
 

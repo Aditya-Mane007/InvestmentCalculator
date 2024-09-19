@@ -13,7 +13,7 @@ function UserInput({ formData, changeHandler }) {
           <input
             type="number"
             name="initialInvestment"
-            value={initialInvestment || 1}
+            value={initialInvestment}
             placeholder="Initial Inventment"
             onChange={changeHandler}
           />
@@ -26,7 +26,7 @@ function UserInput({ formData, changeHandler }) {
           <input
             type="number"
             name="annualInvestment"
-            value={annualInvestment || 1}
+            value={annualInvestment}
             placeholder="Annual Inventment"
             onChange={changeHandler}
           />
@@ -40,7 +40,7 @@ function UserInput({ formData, changeHandler }) {
           <input
             type="number"
             name="expectedReturn"
-            value={expectedReturn || 1}
+            value={expectedReturn}
             placeholder="In percentage e.g: 6"
             onChange={changeHandler}
           />
@@ -53,7 +53,7 @@ function UserInput({ formData, changeHandler }) {
           <input
             type="number"
             name="duration"
-            value={duration || 1}
+            value={duration}
             placeholder="Duration"
             onChange={changeHandler}
           />
